@@ -1,0 +1,3 @@
+Model,Metric,Value
+Baseline Prophet,MAE,245.7
+Optimized Prophet,MAE,198.4
