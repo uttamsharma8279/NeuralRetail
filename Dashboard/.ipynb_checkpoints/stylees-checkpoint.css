@@ -1,0 +1,341 @@
+/* ==============================
+GLOBAL SETTINGS
+============================== */
+
+html, body, [class*="css"]  {
+
+    font-family: "Segoe UI", sans-serif;
+
+}
+
+
+/* ==============================
+MAIN BACKGROUND
+============================== */
+
+.stApp {
+
+    background:
+    linear-gradient(
+        135deg,
+        #0F172A,
+        #111827
+    );
+
+    color: white;
+
+}
+
+
+/* ==============================
+SIDEBAR
+============================== */
+
+section[data-testid="stSidebar"] {
+
+    background:
+    linear-gradient(
+
+        180deg,
+
+        #111827,
+
+        #1F2937
+
+    );
+
+    border-right:
+
+    1px solid
+
+    rgba(
+        255,
+        255,
+        255,
+        .1
+    );
+
+}
+
+
+section[data-testid="stSidebar"] * {
+
+    color:white;
+
+}
+
+
+/* ==============================
+HEADINGS
+============================== */
+
+h1,h2,h3 {
+
+    color:
+
+    #F8FAFC;
+
+    font-weight:
+
+    700;
+
+}
+
+
+/* ==============================
+METRIC CARDS
+============================== */
+
+[data-testid="metric-container"] {
+
+    background:
+
+    rgba(
+        255,
+        255,
+        255,
+        0.06
+    );
+
+    border:
+
+    1px solid rgba(
+        255,
+        255,
+        255,
+        0.1
+    );
+
+    padding:
+
+    20px;
+
+    border-radius:
+
+    18px;
+
+    backdrop-filter:
+
+    blur(
+        14px
+    );
+
+    box-shadow:
+
+    0px 4px 25px rgba(
+        0,
+        0,
+        0,
+        .3
+    );
+
+}
+
+
+/* ==============================
+PLOTS
+============================== */
+
+.stPlotlyChart {
+
+    background:
+
+    rgba(
+        255,
+        255,
+        255,
+        0.04
+    );
+
+    padding:
+
+    12px;
+
+    border-radius:
+
+    20px;
+
+    border:
+
+    1px solid rgba(
+        255,
+        255,
+        255,
+        .08
+    );
+
+}
+
+
+/* ==============================
+TABLES
+============================== */
+
+[data-testid="stDataFrame"] {
+
+    border-radius:
+
+    18px;
+
+    overflow:hidden;
+
+    border:
+
+    1px solid rgba(
+        255,
+        255,
+        255,
+        .08
+    );
+
+}
+
+
+/* ==============================
+BUTTONS
+============================== */
+
+.stButton button {
+
+    background:
+
+    linear-gradient(
+
+        90deg,
+
+        #2563EB,
+
+        #7C3AED
+
+    );
+
+    color:
+
+    white;
+
+    border:none;
+
+    border-radius:
+
+    12px;
+
+    padding:
+
+    10px 20px;
+
+    font-weight:
+
+    600;
+
+}
+
+
+.stButton button:hover {
+
+    transform:
+
+    scale(
+        1.02
+    );
+
+}
+
+
+/* ==============================
+DOWNLOAD BUTTON
+============================== */
+
+.stDownloadButton button {
+
+    background:
+
+    #16A34A;
+
+    color:
+
+    white;
+
+    border:none;
+
+    border-radius:
+
+    12px;
+
+}
+
+
+/* ==============================
+INPUT BOXES
+============================== */
+
+.stSelectbox,
+
+.stTextInput,
+
+.stMultiSelect {
+
+    background:
+
+    rgba(
+        255,
+        255,
+        255,
+        .05
+    );
+
+}
+
+
+/* ==============================
+SCROLLBAR
+============================== */
+
+::-webkit-scrollbar {
+
+    width:
+
+    8px;
+
+}
+
+::-webkit-scrollbar-thumb {
+
+    background:
+
+    #475569;
+
+    border-radius:
+
+    20px;
+
+}
+
+
+/* ==============================
+CUSTOM CARD CLASS
+============================== */
+
+.card {
+
+    background:
+
+    rgba(
+        255,
+        255,
+        255,
+        .05
+    );
+
+    padding:
+
+    25px;
+
+    border-radius:
+
+    20px;
+
+    margin-bottom:
+
+    20px;
+
+}
